@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: border-box;	
+}
+
+body {
+	font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;    
+    background-color: #190823;
+}
+
+a {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
